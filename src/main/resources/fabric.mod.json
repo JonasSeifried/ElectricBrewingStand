@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "electricbrewingstand",
+  "version": "${version}",
+  "name": "ElectricBrewingStand",
+  "description": "An Electric Brewing Stand",
+  "authors": [
+    "Jonas Seifried"
+  ],
+  "contact": {
+    "website": "https://github.com/JonasSeifried/ElectricBrewingStand",
+    "repo": "https://github.com/JonasSeifried/ElectricBrewingStand"
+  },
+  "license": "MIT",
+  "icon": "assets/electricbrewingstand/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.jonasseifried.electricbrewingstand.client.ElectricBrewingStandClient"
+    ],
+    "main": [
+      "io.github.jonasseifried.electricbrewingstand.ElectricBrewingStand"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
